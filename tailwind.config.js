@@ -8,7 +8,6 @@ module.exports = {
         gradient2:
           'linear-gradient(180deg, #713dff 0%, #713dff 46%, #ff3ce0 150%)',
       },
-
       colors: {
         primary: 'var(--text-primary)',
         success: 'var(--text-success)',
