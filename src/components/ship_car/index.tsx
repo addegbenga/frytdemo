@@ -103,13 +103,6 @@ export default function Index() {
   const reactQuery = useQueryClient();
   const auth_data: any = reactQuery.getQueryData(['auth_data']);
 
-  useEffect(() => {
-    if (!auth_data) {
-      router.push('/auth/login');
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
   return (
     <OtherLayout>
       {/* SubNav Section */}
