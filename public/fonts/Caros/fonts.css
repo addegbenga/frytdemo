@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Caros Soft';
+    src: url('CarosSoftBlack.woff2') format('woff2'),
+        url('CarosSoftBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caros Soft';
+    src: url('CarosSoftBold.woff2') format('woff2'),
+        url('CarosSoftBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caros Soft';
+    src: url('CarosSoft.woff2') format('woff2'),
+        url('CarosSoft.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caros Soft';
+    src: url('CarosSoftExtraLight.woff2') format('woff2'),
+        url('CarosSoftExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caros Soft';
+    src: url('CarosSoftExtraBold.woff2') format('woff2'),
+        url('CarosSoftExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caros Soft';
+    src: url('CarosSoftHeavy.woff2') format('woff2'),
+        url('CarosSoftHeavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caros Soft';
+    src: url('CarosSoftThin.woff2') format('woff2'),
+        url('CarosSoftThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caros Soft';
+    src: url('CarosSoftLight.woff2') format('woff2'),
+        url('CarosSoftLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caros Soft';
+    src: url('CarosSoftMedium.woff2') format('woff2'),
+        url('CarosSoftMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

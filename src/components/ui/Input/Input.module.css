@@ -1,0 +1,39 @@
+.root {
+  @apply px-4 text-base w-full  border outline-none  border-[#C9D5E2] text-[#304157]  placeholder:text-[#E1E8F1] rounded-lg;
+  height: 50px;
+}
+
+.root:hover {
+  @apply border-[#61748D];
+}
+
+.root:focus {
+  @apply outline-none border-[#DDC38F];
+}
+
+.filled {
+  @apply bg-[#F8FAFC] outline-none;
+}
+
+.inputerror {
+  @apply border-[#F1592D] bg-[#F8FAFC];
+}
+
+.disabled,
+.disabled:hover {
+  @apply cursor-not-allowed bg-[#F8FAFC] outline-none;
+  filter: grayscale(1);
+  -webkit-transform: translateZ(0);
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}
+.error:focus {
+  @apply outline-none border-[#F1592D];
+}
+
+.progress {
+}
+
+.inputlabel {
+  @apply text-[#304157] text-sm mb-2;
+}

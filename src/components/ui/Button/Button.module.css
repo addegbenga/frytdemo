@@ -1,0 +1,12 @@
+.root {
+  @apply inline-flex bg-[#F1592D]  items-center rounded-md justify-center  leading-6 tracking-wide text-center transition duration-150 ease-in-out border border-transparent shadow-sm cursor-pointer  text-white;
+}
+
+.disabled,
+.disabled:hover {
+  @apply cursor-not-allowed;
+  filter: grayscale(1);
+  -webkit-transform: translateZ(0);
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}

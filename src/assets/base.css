@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+  --primary: #ffffff;
+  --primary-2: #6f3cff;
+  --secondary: #000000;
+  --selection: var(--cyan);
+  --text-primary: #082f2e;
+  --text-secondary: #61748d;
+  --text-accent: #f1592d;
+  --btn-primary: #dd491e;
+  --btn-tertiary: #1877f2;
+  --text-success: #4aa674;
+  --bg-primary: #f1592d;
+  --bg-primary-hover: #dd491e;
+  --primary-focus: #ddc38f;
+  --primary-disabled: #db7c5f;
+  --font-sans: 'Outfit', sans-serif;
+}
+[data-theme='dark'] {
+  --primary: #000000;
+  --primary-2: #111;
+  --secondary: #ffffff;
+  --secondary-2: #f1f3f5;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior-x: none;
+}
+/* specific to phone number input */
+.react-tel-input {
+  margin: 0.25rem 0 1.5rem 0 !important;
+  font-family: 'Sofia Pro', sans-serif !important;
+  /* position: relative; */
+  position: static !important;
+  width: 100%;
+  display: flex;
+
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.react-tel-input .special-label {
+  display: none !important;
+  position: static !important;
+  z-index: auto !important;
+  font-size: 16px !important;
+  left: unset !important;
+  top: unset !important;
+  padding: 0 !important;
+  color: #91a3ba !important;
+  font-weight: 500 !important;
+  background: red !important;
+}
+
+.react-tel-input .form-control {
+  /* position: relative; */
+  position: static !important;
+  letter-spacing: 0.01rem;
+  margin-top: 1 !important;
+  margin-bottom: 0 !important;
+  padding: 0.75rem !important;
+  background: #ffffff;
+  border: 1px solid #c9d5e2 !important;
+  border-radius: 0 !important;
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  font-size: 1rem !important;
+  font-weight: normal !important;
+  line-height: 1.5rem !important;
+  height: 48px !important;
+  width: 100% !important;
+  color: #304157;
+  font-family: 'Sofia Pro', sans-serif !important;
+  outline: none;
+}
+
+.react-tel-input .form-control:focus {
+  border: 1px solid #ddc38f !important;
+  color: #304157;
+  outline: none;
+}
+
+.react-tel-input .flag-dropdown {
+  /* position: absolute; */
+  position: static !important;
+  top: 0;
+  bottom: 0;
+  padding: 0;
+  padding-left: 0 !important;
+  height: 48px !important;
+  width: 100px !important;
+  background-color: #fff !important;
+  border: 1px solid #c9d5e2 !important;
+  border-radius: 8px 0 0 8px !important;
+}
+
+.react-tel-input .form-control:focus + .flag-dropdown {
+  border: 2px solid #ddc38f !important;
+  color: #304157;
+  outline: none;
+}
+
+.react-tel-input .selected-flag {
+  outline: none;
+  position: relative;
+  width: 100% !important;
+  height: 100%;
+  padding: 0 0 0 8px;
+  border-radius: 8px 0 0 8px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-tel-input .selected-flag .flag {
+  /* position: absolute; */
+  position: static !important;
+  top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.react-tel-input .selected-flag .arrow {
+  /* position: relative;
+  top: 50%;
+  margin-top: -2px;
+  left: 20px; */
+  margin-left: 0.5rem;
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 4px solid #555;
+}
+
+option {
+  background: #fff;
+}
+
+/* style for map search input */
+.location-search-input {
+  border: 4px solid red;
+}
+
+@media (max-width: 640px) {
+  .react-tel-input {
+    margin: 0.25rem 0 0 0 !important;
+  }
+}
+
+input[type='radio'] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  padding: 2px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 2px solid #91a3ba;
+
+  border-radius: 50%;
+}
+
+/* appearance for checked radiobutton */
+input[type='radio']:checked {
+  background-color: #f1592d;
+  border: 2px solid #f5ebe8;
+}
+
+.picker {
+  position: relative;
+}
+
+.swatch {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.popover {
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  border-radius: 9px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.css-yk16xz-control {
+  background-color: white !important;
+  border: 1px solid #c9d5e2 !important;
+  height: 50px !important;
+}
+
+.css-yk16xz-control:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+.css-1pahdxg-control {
+  border: none !important;
+  box-shadow: none !important;
+  border: 1px solid #ddc38f !important;
+}
+.css-1pahdxg-control:focus {
+  outline: none !important;
+}
+.css-100g07j-Mt {
+  height: 50px !important;
+}
+
+.css-1wa3eu0-placeholder {
+  font-size: 0.875rem !important;
+  color: #e1e8f1 !important;
+}
