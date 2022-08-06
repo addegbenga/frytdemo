@@ -13,7 +13,7 @@ export default function index() {
           Already in the hub?{' '}
           <span className="font-bold">
             {' '}
-            <Link href="/auth/login">Login</Link>
+            <Link href="/auth/register">Login</Link>
           </span>
         </p>
       </div>
