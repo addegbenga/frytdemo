@@ -84,7 +84,7 @@ const Input = React.forwardRef(
             autoCorrect="off"
             spellCheck="false"
             type={type}
-            className={rootClassName}
+            className=" px-4 text-base w-full  border outline-none  border-[#C9D5E2] text-[#304157]  placeholder:text-[#E1E8F1] rounded-lg"
             {...field}
             onChange={(e) => formikFunc(name, e.target.value)}
             value={value}
