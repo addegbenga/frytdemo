@@ -1,3 +1,5 @@
+import '../styles/globals.css';
+import '@assets/base.css';
 import '@assets/main.css';
 import type { AppProps } from 'next/app';
 import { QueryClient } from '@tanstack/react-query';
