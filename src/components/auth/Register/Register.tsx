@@ -110,13 +110,6 @@ const Register: React.FC = () => {
       });
     }
   };
-  useEffect(() => {
-    console.log(auth_data);
-    if (auth_data) {
-      router.push('/dashboard');
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   return (
     <section className="px-6 py-12 lg:bg-white lg:py-0 lg:px-0 lg:flex ">

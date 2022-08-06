@@ -55,13 +55,6 @@ const Login: React.FC = () => {
     });
   };
 
-  useEffect(() => {
-    console.log(auth_data);
-    if (auth_data) {
-      router.push('/dashboard');
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
   // const { handleLogin } = useLogin();
   // const { googleSignUp, facebookSignUp } = useSocialAuth();
   return (
