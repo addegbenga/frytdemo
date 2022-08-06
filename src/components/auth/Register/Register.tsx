@@ -154,7 +154,7 @@ const Register: React.FC = () => {
             </div>
 
             <div className="flex justify-center gap-4 ">
-              <RegisterViaGoogleLogin />
+              {/* <RegisterViaGoogleLogin /> */}
               <button className="px-4 text-white rounded shadow bg-btn-tertiary">
                 <IoLogoFacebook size={26} />
               </button>

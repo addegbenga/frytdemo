@@ -58,7 +58,6 @@ const data2 = [
 ];
 
 // Todo: Make this page exact with query strings to avoid blank pages
-
 export default function Index() {
   // State values for step_one
   const [selected, setSelected] = useState('');
@@ -70,7 +69,6 @@ export default function Index() {
   const [mileage, setMileage] = useState('');
   const [color, setColor] = useState<string>('#aabbcc');
   const [files, setFiles] = useState([]);
-
   // State values for step_one
 
   //State values for step_two
@@ -84,7 +82,6 @@ export default function Index() {
   const [googlePickupDate, setGooglePickupDate] = useState('');
   const [pickupLatitude, setPickupLatitude] = useState('');
   const [pickupLongitude, setPickupLongitude] = useState('');
-
   //State values for step_two
 
   //State values for step_three

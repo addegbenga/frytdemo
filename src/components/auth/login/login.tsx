@@ -76,7 +76,7 @@ const Login: React.FC = () => {
           {/* <button className="p-3 text-white rounded shadow bg-btn-primary px-7">
             <IoLogoGoogle />
           </button> */}
-          <SignUpViaGoogleLogin />
+          {/* <SignUpViaGoogleLogin /> */}
           <button className="px-4 text-white rounded shadow bg-btn-tertiary">
             <IoLogoFacebook size={30} />
           </button>
